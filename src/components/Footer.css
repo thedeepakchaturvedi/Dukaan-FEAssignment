@@ -1,0 +1,74 @@
+.footer-container {
+    height: 283px;
+    width: 100%;
+    background-color: #1A181E;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 1px solid white; */
+}
+
+.footer-container .footer {
+    /* border: 2px solid red; */
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Regular";
+
+    line-height: 40px;
+    color: #FFFFFF;
+
+    font-family: "Regular";
+    font-size: 16px;
+
+}
+
+.for-col .job-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.job-container .num {
+    margin-left: 5px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .hr-1 {
+    height: 1px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    width: 75%;
+}
+
+.footer-container .end-box {
+    margin: auto;
+    width: 75%;
+    font-family: 'Regular';
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-box .flag-container {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.end-box .flag-container .india {
+    margin-left: 4%;
+}

@@ -1,0 +1,220 @@
+.slogan-outer {
+    width: 75%;
+    padding: 3.5% 0 2% 0;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+    min-height: 1350px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* drag to top */
+
+    position: relative;
+    top: -200px;
+}
+
+.slogan-header {
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    width: 60%;
+    margin: auto;
+}
+
+.slogan-header .heading {
+    font-family: "SemiBold";
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    color: #1A181E;
+}
+
+.slogan-header .description {
+    margin-top: 16px;
+    font-family: 'Regular';
+    font-size: 20px;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+
+.input-slogan {
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    width: 60%;
+    margin: auto;
+}
+
+.input-slogan .input-heading {
+    font-family: 'Medium';
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+
+.input-slogan .input-container {
+    display: flex;
+    /* background-color: blue; */
+    width: fit-content;
+    margin-top: 5px;
+    width: 50%;
+    height: 48px;
+    border: 1.7px solid #D9D9D9;
+    border-radius: 4px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-slogan .input-container input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    height: 24px;
+    font-family: 'Regular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A181E;
+    padding-left: 2px;
+}
+
+.input-slogan .input-container .cross {
+    width: 11px;
+    height: 11px;
+    margin-bottom: 5px;
+    margin-right: 7px;
+}
+
+.generate-slogans {
+    margin: auto;
+    height: 50px;
+    width: 60%;
+}
+
+.generate-slogans .gen-btn {
+    background: #146EB4;
+    border-radius: 4px;
+    height: 50px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate-slogans .gen-btn .txt {
+    font-family: 'Medium';
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.hr-1, .hr-2{
+    background-color: #D9D9D9;
+    height: 1px;
+    width: 60%;
+    margin: auto;
+}
+
+.slogan-output {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.slogan-output .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slogan-output .heading .txt {
+    font-family: 'Medium';
+    font-size: 20px;
+    line-height: 28px;
+    color: #1A181E;
+}
+
+.slogan-output .heading .dwn-btn {
+    border: 1.5px solid #146EB4;
+    border-radius: 4px;
+    height: 36px;
+    width: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Medium';
+    font-size: 14px;
+    line-height: 20px;
+    color: #146EB4;
+}
+
+.slogan-output-container {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.pagination-container {
+    display: flex;
+    /* background-color: green; */
+    width: 60%;
+    margin: auto;
+    justify-content: flex-start;
+    /* font-details */
+    font-family: 'Regular';
+    font-size: 14px;
+    line-height: 20px;
+    color: #146EB4;
+}
+
+.pagination-container .pagination {
+    /* border : 1px solid black; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-container .pagination .pages {
+    /* background-color: gray; */
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.pagination-container .pagination .one {
+    background-color: #146EB4;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-container .nxt-btn svg {
+    width: 14px;
+    padding-left: 5px;
+}
+
+.pagination-container .nxt-btn {
+    /* border: 1px solid gray; */
+    width: 10%;
+}
+
+.pagination-container .nxt-btn .nxt-txt{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

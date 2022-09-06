@@ -1,0 +1,16 @@
+.slogan-main {
+    padding: 8px 16px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    height: 60px;
+    width: 48%; 
+    font-family: 'Regular';
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A181E;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
